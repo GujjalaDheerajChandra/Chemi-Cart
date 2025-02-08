@@ -1,0 +1,19 @@
+.nav-accordion-list {
+  margin-left: -15px;
+  position: absolute;
+  padding: 20px 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: var(--background);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 60%;
+}
+
+.nav-accordion-list-item:hover {
+  color: var(--hover-color);
+  transition: all 0.3s;
+}

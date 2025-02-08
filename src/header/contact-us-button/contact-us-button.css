@@ -1,0 +1,15 @@
+button {
+  background: var(--cta-bg);
+  border: 2px solid var(--background);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0;
+  font: inherit;
+  color: var(--cta-text);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  border: 2px solid var(--cta-bg);
+}

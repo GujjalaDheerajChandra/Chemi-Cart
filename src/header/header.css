@@ -1,0 +1,20 @@
+header {
+  background-color: #fffaef;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 30px;
+  position: sticky;
+  font-size: large;
+  font-weight: 500;
+  border-bottom: 3px solid #efefef;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}

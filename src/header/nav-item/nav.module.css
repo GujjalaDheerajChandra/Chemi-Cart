@@ -1,0 +1,20 @@
+.header-nav-list-item {
+  transition: all 0.3s ease;
+}
+
+.header-nav-list-item:hover {
+  color: var(--hover-color);
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+  transform: rotate(180deg);
+}
+
+.accordion-icon:hover {
+  color: var(--hover-color);
+}
+
+.accordion-icon-hover {
+  transform: rotate(0deg);
+}

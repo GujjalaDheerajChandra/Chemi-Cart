@@ -1,0 +1,22 @@
+:root {
+  --background: #fffaee;
+  --headline: #2e3a59;
+  --subheadline: #00a896;
+  --body-text: #4a4a4a;
+  --cta-text: White;
+  --cta-bg: Orange;
+  --hover-color: Orange;
+  --captions: #a0a0a0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background);
+  color: var(--body-text);
+}
